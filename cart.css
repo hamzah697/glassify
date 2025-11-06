@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(90deg, #fff7ea, #f9e6b0);
+}
+.Heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+     font-family: Sansation;
+     margin-top: 40px;
+     font-weight: 700;
+     color:rgb(143, 136, 43) ;
+     padding: 5px;
+}
+.products {
+  text-align: center;
+  padding: 64px;
+
+}
+
+.products h2 {
+  font-family: Sansation;
+  margin-bottom: 40px;
+  font-size: 50px;
+  color: #ffffff;
+  
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.card a{
+  text-decoration: none;
+}
+.card img a{
+  text-decoration: none;
+}
+.card h3 a{
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.8);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif;
+  color: #3b2f0c;
+}
+.button-section{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.plus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+   background: linear-gradient(90deg, #fff7ea, #f9e6b0);
+   cursor: pointer;
+}
+.counter{
+  border: 1px solid black;
+  width: 70px;
+  padding: 8px;
+  border-radius: 20px;
+  
+}
+.minus{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+   background: linear-gradient(90deg, #fff7ea, #f9e6b0);
+   cursor: pointer;
+}
+.button-row{
+   text-align: center;
+}
+.add{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-family: Sansation;
+  background: linear-gradient(90deg,#fff7ea,#f9e6b0);
+  color: black;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  
+}
+.add:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px  rgba(0, 0, 0, 0.6);
+}
